@@ -1,0 +1,16 @@
+{
+  "name": "@scale.digital/digi",
+  "version": "0.0.1",
+  "type": "module",
+  "bin": {
+    "digi": "./dist/index.js"
+  },
+  "scripts": {
+    "dev": "bun run ./src/index.ts",
+    "build": "bun build ./src/index.ts --outdir ./dist --target bun",
+    "compile": "bun build ./src/index.ts --compile --bytecode --minify --outfile ./bin/digi"
+  },
+  "dependencies": {
+    "citty": "0.2.2"
+  }
+}

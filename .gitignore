@@ -1,0 +1,17 @@
+# dependencies (bun install)
+node_modules
+
+# IntelliJ based IDEs
+.idea
+
+# output
+out
+dist
+*.tgz
+bin
+
+# Finder (MacOS) folder config
+.DS_Store
+
+
+

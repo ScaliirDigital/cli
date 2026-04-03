@@ -1,0 +1,12 @@
+{
+  "name": "@scale.digital/astro-bun",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "./src/index.ts",
+  "scripts": {
+    "build": "bun build ./src/index.ts --outdir ./dist --target bun"
+  },
+  "peerDependencies": {
+    "astro": "6.1.3"
+  }
+}
