@@ -13,5 +13,5 @@ bin
 # Finder (MacOS) folder config
 .DS_Store
 
-
-
+# Git pre-commit hooks
+.pre-commit-config.yaml
